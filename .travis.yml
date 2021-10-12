@@ -16,4 +16,4 @@ install:
 
 script:
   - pipenv run black .
-  - pipenv run flake8 .
+  - pipenv run flake8 ./pypro
