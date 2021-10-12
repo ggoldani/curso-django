@@ -16,4 +16,4 @@ install:
 
 script:
   - pipenv run black .
-  - pipenv run flake8 ./pypro
+  - pipenv run flake8 ./pypro --max-line-length 120
